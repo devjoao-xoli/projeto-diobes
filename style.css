@@ -108,7 +108,12 @@ body * {
     outline: none;
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #00ff8052;
+    text-decoration: none;
 }   
+
+.btn-login:hover{
+    text-decoration: underline;
+}
 
 .left > img {
     width: 400px;
@@ -151,8 +156,13 @@ body * {
     }
     .left > img {
         width: 50vw;
+        margin-top: 40px;
     }
     .card-login {
         width: 90%;
     }
+    .vend{
+        margin-top: 150px;
+    }
+
 }
