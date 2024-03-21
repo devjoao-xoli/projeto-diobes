@@ -5,11 +5,11 @@ body {
     margin: 0;
     font-family: 'Noto Sans',sans-serif;
     background: #201b2c;
+    overflow: hidden;
 }
 
 body * {
     box-sizing: border-box;
-    overflow-x: hidden;
 }
 
 .main{
